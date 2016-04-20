@@ -13,7 +13,7 @@ Given /^I generate a new rails application$/ do
       gem "jruby-openssl", :platform => :jruby
       gem "capybara"
       gem "gherkin"
-      gem "aws-sdk"
+      gem "aws-sdk-v1"
       """
     And I remove turbolinks
     And I empty the application.js file
